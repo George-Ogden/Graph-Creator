@@ -200,7 +200,6 @@ class main_code:
         self.root = Tk()
         self.root.title("Graph Creator")
         self.canvas = Canvas(self.root)
-        self.root.grid
         
         #title
         self.frame0 = Frame(self.root)
