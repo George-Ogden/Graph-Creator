@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['Graph Creator.py'],
-             pathex=['C:\\Users\\G0228\\OneDrive\\Documents\\School Work\\Computing\\Graph-Creator'],
+             pathex=['C:\\Users\\George Ogden\\OneDrive\\Documents\\Other Stuff\\Research\\Computing Projects\\Graph-Creator'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -26,7 +26,7 @@ exe = EXE(pyz,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          console=True , icon='icon.ico')
+          console=True , icon='icon.png')
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
